@@ -18,6 +18,12 @@ body {
   height: 100%;
   margin: 0;
   transition: all  0.3  ease-in;
+
+  ::selection {
+    color: #fff;
+    background: #D4B369 ;
+  }
+  background-color: #D4B369;
 }
 
 img {
